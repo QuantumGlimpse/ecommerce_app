@@ -21,6 +21,7 @@ class OnBoardingNextButton extends StatelessWidget {
       right: TSizes.spaceBtwItems,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
+          minimumSize: const Size.fromRadius(24),
           shape: const CircleBorder(),
           backgroundColor: dark ? TColors.primary : TColors.dark,
         ),
