@@ -31,5 +31,6 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "fonts":[{"asset":"fonts/MaterialIcons-Regular.ttf"}],"family":"MaterialIcons"
 }

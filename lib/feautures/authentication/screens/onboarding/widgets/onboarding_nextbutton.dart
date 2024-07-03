@@ -33,3 +33,36 @@ class OnBoardingNextButton extends StatelessWidget {
     );
   }
 }
+
+// class OnBoardingNextButton extends StatefulWidget {
+//   const OnBoardingNextButton({super.key});
+//
+//   @override
+//   State<OnBoardingNextButton> createState() => _OnBoardingNextButtonState();
+// }
+//
+// class _OnBoardingNextButtonState extends State<OnBoardingNextButton> {
+//   @override
+//   Widget build(BuildContext context) {
+//     final controller = OnBoardingControllers.instance;
+//     final dark = THelperFunctions.isDarkMode(context);
+//     return Positioned(
+//       bottom: TDeviceUtils.getBottomNavigationBarHeight(),
+//       right: TSizes.spaceBtwItems,
+//       child: ElevatedButton(
+//         style: ElevatedButton.styleFrom(
+//           minimumSize: const Size.fromRadius(24),
+//           shape: const CircleBorder(),
+//           backgroundColor: dark ? TColors.primary : TColors.dark,
+//         ),
+//         onPressed: () {
+//           controller.nextPage();
+//           setState(() {}); // Trigger a rebuild of the widget
+//         },
+//         child: controller.shiftButton()
+//             ? const Text('LogIn')
+//             : const Icon(Iconsax.arrow_right_3),
+//       ),
+//     );
+//   }
+// }

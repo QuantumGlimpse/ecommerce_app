@@ -3,6 +3,8 @@ import 'package:ecommerce_app/utils/theme/main_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'feautures/authentication/screens/login_screen/login.dart';
+
 void main() {
   runApp(const MyApp());
 }
