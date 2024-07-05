@@ -4,8 +4,8 @@ import 'package:ecommerce_app/feautures/authentication/screens/login_screen/widg
 import 'package:ecommerce_app/utils/constants/size.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../common/widgets/login_form_divider.dart';
-import '../../../../common/widgets/login_socialbuttons.dart';
+import '../../../../common/widgets/login_signup/login_form_divider.dart';
+import '../../../../common/widgets/login_signup/login_socialbuttons.dart';
 import '../../../../utils/constants/text_strings.dart';
 
 class LoginScreen extends StatelessWidget {

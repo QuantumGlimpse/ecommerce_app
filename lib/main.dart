@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'feautures/authentication/screens/login_screen/login.dart';
+import 'feautures/authentication/screens/password_configuration/forget_password.dart';
 import 'feautures/authentication/screens/sign_up/sign_up.dart';
+import 'feautures/authentication/screens/sign_up/verify_email.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const SignUp(),
+      home: const ForgetPassword(),
     );
   }
 }

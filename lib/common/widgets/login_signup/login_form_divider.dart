@@ -1,8 +1,8 @@
 import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../utils/constants/colors.dart';
-import '../../utils/constants/text_strings.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/text_strings.dart';
 
 class TFormDivider extends StatelessWidget {
   final String dividerText;

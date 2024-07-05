@@ -56,7 +56,7 @@ class TSignupForm extends StatelessWidget {
           ),
           TextFormField(
             decoration: const InputDecoration(
-              label: Text(TTexts.username),
+              label: Text(TTexts.email),
               prefixIcon: Icon(Iconsax.direct),
             ),
           ),
@@ -65,7 +65,7 @@ class TSignupForm extends StatelessWidget {
           ),
           TextFormField(
             decoration: const InputDecoration(
-              label: Text(TTexts.username),
+              label: Text(TTexts.phoneNo),
               prefixIcon: Icon(Iconsax.call),
             ),
           ),
@@ -74,7 +74,7 @@ class TSignupForm extends StatelessWidget {
           ),
           TextFormField(
             decoration: const InputDecoration(
-                label: Text(TTexts.username),
+                label: Text(TTexts.password),
                 prefixIcon: Icon(
                   Iconsax.password_check,
                 ),
